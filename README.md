@@ -4,7 +4,7 @@
 
 **Author:** Renu Asmitha T  
 **Degree:** B.Tech Computer Science Engineering  
-**Project Category:** AI-Powered Programming Assistance & Personalized Learning Platform (SEC Capstone)
+**Project Category:** AI-Powered Programming Assistance & Personalized Learning Platform 
 
 ---
 
