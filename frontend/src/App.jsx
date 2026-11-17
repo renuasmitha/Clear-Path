@@ -14,6 +14,7 @@ import History from './pages/History';
 import Workspace from './pages/Workspace';
 import Profile from './pages/Profile';
 import Settings from './pages/Settings';
+import AIAssistant from './pages/AIAssistant';
 
 export default function App() {
   const { activePage, sidebarCollapsed } = useApp();
@@ -24,6 +25,8 @@ export default function App() {
         return <Dashboard />;
       case 'analyzer':
         return <CodeAnalyzer />;
+      case 'ai-assistant': 
+        return <AIAssistant />;
       case 'roadmap':
         return <LearningPath />;
       case 'history':

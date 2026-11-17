@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {
   LayoutDashboard,
   Code2,
@@ -27,13 +28,14 @@ export default function Sidebar() {
     studentProfile
   } = useApp();
 
-  const primaryNavItems = [
-    { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard, badge: null },
-    { id: 'analyzer', label: 'Code Analyzer', icon: Code2, badge: 'Live AST' },
-    { id: 'roadmap', label: 'Learning Path', icon: ListOrdered, badge: '5 Stages' },
-    { id: 'history', label: 'History', icon: Clock, badge: null },
-    { id: 'workspace', label: 'Student Workspace', icon: FolderKanban, badge: null },
-  ];
+ const primaryNavItems = [
+  { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard, badge: null },
+  { id: 'analyzer', label: 'Code Analyzer', icon: Code2, badge: 'Live AST' },
+  { id: 'ai-assistant', label: 'AI Assistant', icon: Sparkles, badge: 'Mentor' },
+  { id: 'roadmap', label: 'Learning Path', icon: ListOrdered, badge: '5 Stages' },
+  { id: 'history', label: 'History', icon: Clock, badge: null },
+  { id: 'workspace', label: 'Student Workspace', icon: FolderKanban, badge: null },
+];
 
   const bottomNavItems = [
     { id: 'profile', label: 'Profile', icon: User },

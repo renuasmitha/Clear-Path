@@ -44,7 +44,7 @@ export default function TopicDetailModal() {
 
   const handleAskAI = () => {
     setSelectedTopic(null);
-    navigateTo('assistant');
+    navigateTo('ai-assistant');
     showToast(`Ask AI about: "${selectedTopic.title}"`, 'info');
   };
 
